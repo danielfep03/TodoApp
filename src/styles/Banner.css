@@ -1,0 +1,22 @@
+.banner {
+   background-image: url("../images/bg-mobile-dark.jpg");
+   background-size: cover;
+   width: 100%;
+   background-color: aqua;
+   display: flex;
+   justify-content: space-around;
+   height: 30vh;
+}
+
+.theme__selector {
+  background: none;
+  border: none;
+  height: 30px;
+  margin-top: 2em;
+}
+
+.banner > h1 {
+  color: var(--title_dark);
+  letter-spacing: 10px;
+  font-weight: 600;
+}

@@ -1,0 +1,20 @@
+.task__list {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.resume {
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--task);
+  height: 50px;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.resume > span {
+  margin-top: .8em;
+  color: var(--border_dark);
+  font-weight: 600;
+}

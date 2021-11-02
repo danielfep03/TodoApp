@@ -1,0 +1,16 @@
+.container {
+  width: 85%;
+  position: absolute;
+  top: 13%;
+  left: 7.5%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.container > span {
+  color: var(--border_dark);
+  text-align: center;
+  margin-top: 40px;
+}

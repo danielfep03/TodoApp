@@ -1,0 +1,19 @@
+.nav {
+  background-color: var(--task);
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.nav > button {
+  background: none;
+  border: none;
+  color: var(--border_dark);
+  font-weight: 800;
+}
+
+.selected {
+  color: var(--blue) !important;
+}

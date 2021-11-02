@@ -1,0 +1,56 @@
+.task {
+  background-color: var(--task);
+  color: var(--text);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-bottom: 1px solid var(--border_dark);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.wrapper > span {
+  margin-top: 1em;
+  color: var(--text_dark);
+}
+
+.check {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 1em;
+  position: relative;
+  border: 1px solid var(--border_dark);
+}
+
+.check__completed {
+  background: linear-gradient(120deg, var(--blue), var(--purple));
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-top: 1em;
+  position: relative;
+}
+
+.check__completed >img {
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.task > img {
+  width: 15px;
+  height: 15px;
+  margin-top: 1.2em;
+}
+
+.completed {
+  text-decoration-line: line-through;
+  color: var(--border_dark) !important;
+}
