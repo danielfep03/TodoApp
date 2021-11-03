@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/TodoApp/static/css/main.00d77428.chunk.css",
-    "main.js": "/TodoApp/static/js/main.c5abe7a0.chunk.js",
-    "main.js.map": "/TodoApp/static/js/main.c5abe7a0.chunk.js.map",
-    "runtime-main.js": "/TodoApp/static/js/runtime-main.6c027d45.js",
-    "runtime-main.js.map": "/TodoApp/static/js/runtime-main.6c027d45.js.map",
-    "static/js/2.32c69dbd.chunk.js": "/TodoApp/static/js/2.32c69dbd.chunk.js",
-    "static/js/2.32c69dbd.chunk.js.map": "/TodoApp/static/js/2.32c69dbd.chunk.js.map",
-    "static/js/3.eccf737d.chunk.js": "/TodoApp/static/js/3.eccf737d.chunk.js",
-    "static/js/3.eccf737d.chunk.js.map": "/TodoApp/static/js/3.eccf737d.chunk.js.map",
+    "main.css": "/TodoApp/static/css/main.656ea0b7.chunk.css",
+    "main.js": "/TodoApp/static/js/main.a4ce3693.chunk.js",
+    "main.js.map": "/TodoApp/static/js/main.a4ce3693.chunk.js.map",
+    "runtime-main.js": "/TodoApp/static/js/runtime-main.2124d473.js",
+    "runtime-main.js.map": "/TodoApp/static/js/runtime-main.2124d473.js.map",
+    "static/js/2.ba1e74f0.chunk.js": "/TodoApp/static/js/2.ba1e74f0.chunk.js",
+    "static/js/2.ba1e74f0.chunk.js.map": "/TodoApp/static/js/2.ba1e74f0.chunk.js.map",
+    "static/js/3.aa98f9c4.chunk.js": "/TodoApp/static/js/3.aa98f9c4.chunk.js",
+    "static/js/3.aa98f9c4.chunk.js.map": "/TodoApp/static/js/3.aa98f9c4.chunk.js.map",
     "index.html": "/TodoApp/index.html",
-    "static/css/main.00d77428.chunk.css.map": "/TodoApp/static/css/main.00d77428.chunk.css.map",
-    "static/js/2.32c69dbd.chunk.js.LICENSE.txt": "/TodoApp/static/js/2.32c69dbd.chunk.js.LICENSE.txt",
+    "static/css/main.656ea0b7.chunk.css.map": "/TodoApp/static/css/main.656ea0b7.chunk.css.map",
+    "static/js/2.ba1e74f0.chunk.js.LICENSE.txt": "/TodoApp/static/js/2.ba1e74f0.chunk.js.LICENSE.txt",
     "static/media/icon-check.a8fb15d0.svg": "/TodoApp/static/media/icon-check.a8fb15d0.svg",
     "static/media/icon-cross.6ee81d30.svg": "/TodoApp/static/media/icon-cross.6ee81d30.svg",
     "static/media/icon-moon.6c03114b.svg": "/TodoApp/static/media/icon-moon.6c03114b.svg",
-    "static/media/icon-sun.910b1f9a.svg": "/TodoApp/static/media/icon-sun.910b1f9a.svg"
+    "static/media/icon-sun.ad189f9c.svg": "/TodoApp/static/media/icon-sun.ad189f9c.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.6c027d45.js",
-    "static/js/2.32c69dbd.chunk.js",
-    "static/css/main.00d77428.chunk.css",
-    "static/js/main.c5abe7a0.chunk.js"
+    "static/js/runtime-main.2124d473.js",
+    "static/js/2.ba1e74f0.chunk.js",
+    "static/css/main.656ea0b7.chunk.css",
+    "static/js/main.a4ce3693.chunk.js"
   ]
 }
