@@ -36,10 +36,12 @@ function Banner() {
 
     return (
         <div className="banner">
-            <h1>TODO</h1>
-            <button className="theme__selector" onClick={handleTheme}>
-                <img src={JSON.stringify(dark_theme) == JSON.stringify(theme) ? sun : moon} alt="Sun" />
-            </button>
+            <div className="banner__wrapper">
+                <h1>TODO</h1>
+                <button className="theme__selector" onClick={handleTheme}>
+                    <img src={JSON.stringify(dark_theme) == JSON.stringify(theme) ? sun : moon} alt="Sun" />
+                </button>
+            </div>
         </div>
     )
 }

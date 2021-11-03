@@ -1,8 +1,11 @@
 .container {
   width: 85%;
+  max-width: 700px;
   position: absolute;
   top: 13%;
-  left: 7.5%;
+  left: 0;
+  right: 0;
+  margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;

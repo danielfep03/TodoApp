@@ -27,9 +27,10 @@
   margin-top: 1em;
   position: relative;
   border: 1px solid var(--border_dark);
+  background: none;
 }
 
-.check__completed {
+.checked {
   background: linear-gradient(120deg, var(--blue), var(--purple));
   width: 25px;
   height: 25px;
@@ -38,7 +39,7 @@
   position: relative;
 }
 
-.check__completed >img {
+.checked > button {
   position: absolute;
   top: 35%;
   left: 30%;

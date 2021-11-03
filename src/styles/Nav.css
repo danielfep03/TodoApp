@@ -12,6 +12,7 @@
   border: none;
   color: var(--border_dark);
   font-weight: 800;
+  cursor: pointer;
 }
 
 .selected {
