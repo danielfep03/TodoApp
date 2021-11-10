@@ -1,32 +1,48 @@
-export default [
+import {v4 as uuid} from 'uuid'
+
+
+const dataDummy = [
     {
-        id: 1,
-        task: 'Task 1',
+        id: JSON.stringify(uuid()),
+        task: 'Complete online JavaScript course',
         completed: true,
     },
     {
-        id: 2,
-        task: 'Task 2',
+        id: JSON.stringify(uuid()),
+        task: 'Jog around the park 3x',
         completed: true,
     },
     {
-        id: 3,
-        task: 'Task 3',
+        id: JSON.stringify(uuid()),
+        task: '10 minutes meditation',
         completed: false,
     },
     {
-        id: 4,
-        task: 'Task 4',
+        id: JSON.stringify(uuid()),
+        task: 'Read for 1 hour',
         completed: false,
     },
     {
-        id: 5,
-        task: 'Task 5',
+        id: JSON.stringify(uuid()),
+        task: 'Pick up groceries',
         completed: false,
     },
     {
-        id: 6,
-        task: 'Task 6',
+        id: JSON.stringify(uuid()),
+        task: 'Complete Todo App on Frontend Mentor',
         completed: false,
     }
 ]
+
+let initialState = []
+
+if (localStorage.getItem('tasks') === null){
+    initialState = [...dataDummy]
+    localStorage.setItem('tasks', JSON.stringify(dataDummy))
+}
+else {
+    const data = JSON.parse(localStorage.getItem('tasks'))
+    initialState = [...data]
+}
+
+export default initialState

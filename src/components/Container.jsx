@@ -1,8 +1,8 @@
 import React, {useState} from 'react'
 import AddTask from './AddTask'
 import TaskList from './TaskList'
+import Resume from './Resume'
 import Nav from './Nav'
-
 import '../styles/Container.css'
 
 function Container() {
@@ -27,11 +27,15 @@ function Container() {
         setShowActive(false)
         setShowCompleted(false)
     }
+   
 
     return (
         <div className="container">
             <AddTask />
-            <TaskList completed={showCompleted} active={showActive}/>
+            <div>
+                <TaskList completed={showCompleted} active={showActive} />
+                <Resume />
+            </div>
             <Nav handleShowCompleted={handleShowCompleted} handleShowActive={handleShowActive} handleShowAll={handleShowAll}/>
             <span>Drag and drop to reorder list</span>
         </div>

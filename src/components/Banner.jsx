@@ -13,14 +13,16 @@ function Banner() {
         'task': '#fff',
         'background': '#F6F6F8',
         'border_dark': '#9B9BA3',
-        'text': '#555660'
+        'text': '#555660',
+        'hover': 'hsl(235, 19%, 35%)'
     }
 
     const dark_theme = {
         'task': '#25273C',
         'background': 'hsl(235, 21%, 11%)',
         'border_dark': '#373a54',
-        'text': '#555660'
+        'text': 'hsl(234, 39%, 85%)',
+        'hover': 'hsl(236, 33%, 92%)'
     }
 
     const [theme, setTheme] = useState(light_theme)
@@ -28,8 +30,6 @@ function Banner() {
     const handleTheme = () => {
         let currentTheme = (JSON.stringify(dark_theme) == JSON.stringify(theme) ? light_theme : dark_theme)
         setTheme(currentTheme)
-        console.log(currentTheme)
-        // console.log(theme)
     }
 
     useTheme(theme)

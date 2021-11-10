@@ -15,9 +15,21 @@
   border-radius: 50%;
   margin-right: 1em;
   margin-top: .8em;
+  background: none;
+  cursor: pointer;
 }
 
-.add__task > span {
+.input__new__task {
   margin-top: .8em;
   color: var(--border_dark);
+  background: none;
+  border: none;
+  margin: 0;
+  width: 80%;
 }
+
+.input__new__task:focus {
+  outline: none;
+  color: var(--text);
+}
+

@@ -28,6 +28,7 @@
   position: relative;
   border: 1px solid var(--border_dark);
   background: none;
+  cursor: pointer;
 }
 
 .checked {
@@ -43,6 +44,7 @@
   position: absolute;
   top: 35%;
   left: 30%;
+  cursor: pointer;
 }
 
 .task > img {
@@ -54,4 +56,10 @@
 .completed {
   text-decoration-line: line-through;
   color: var(--border_dark) !important;
+}
+
+.cross {
+  background: none;
+  border: none;
+  cursor: pointer;
 }
