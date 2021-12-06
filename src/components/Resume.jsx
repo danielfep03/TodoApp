@@ -5,13 +5,9 @@ import '../styles/Resume.css'
 
 function Resume() {
     const initialState = useContext(AppContext)
-    const {state, deleteTask} = initialState
+    const {state, removeCompletedTask} = initialState
 
     const activeTask = state.filter((item) => item.completed === false)
-    const removeCompletedTask = () => {
-        console.log(state)
-        state.forEach((task) => task.completed && deleteTask(task.id))
-    }
 
     return (
         <div className="resume">

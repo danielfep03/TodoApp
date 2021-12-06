@@ -63,3 +63,21 @@
   border: none;
   cursor: pointer;
 }
+
+/* ========= RESPONSIVE DESIGN ================ */
+ @media only screen and (max-width: 600px) {
+   .task {
+     height: fit-content;
+     /* just}ify-content: center; */
+     align-items: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+   }
+   .wrapper > span {
+     margin: 0;
+   }
+
+   .wrapper > button {
+     margin: auto;
+   }
+}
